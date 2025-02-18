@@ -2,6 +2,7 @@ import gerarDiaDaSemana from './gerarDiaDaSemana.js';
 const inputItem = document.getElementById('input-item');
 let contador = 0;
 
+//Permite exportar multiplas partes
 export function criarItemDaLista(){
     if (inputItem.value === ""){
         alert('Por favor, insira um item!');
